@@ -2,7 +2,7 @@
 AppId=B9F6E402-0CAE-4045-BDE6-14BD6C39C4EA
 AppVersion=1.11.2+24
 AppName=Soya Music
-AppPublisher=anandnet
+AppPublisher=sadevelopment
 AppPublisherURL=https://github.com/SoulDevs/Soya-music
 AppSupportURL=https://github.com/SoulDevs/Soya-music
 AppUpdatesURL=https://github.com/SoulDevs/Soya-music
