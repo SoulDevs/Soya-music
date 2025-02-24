@@ -1,6 +1,6 @@
 [Setup]
 AppId=B9F6E402-0CAE-4045-BDE6-14BD6C39C4EA
-AppVersion=1.11.2+24
+AppVersion=1.0.0+25
 AppName=Soya Music
 AppPublisher=sadevelopment
 AppPublisherURL=https://github.com/SoulDevs/Soya-music
@@ -9,7 +9,7 @@ AppUpdatesURL=https://github.com/SoulDevs/Soya-music
 DefaultDirName={autopf}\soyamusic
 DisableProgramGroupPage=yes
 OutputDir=.
-OutputBaseFilename=soyamusic-1.11.2
+OutputBaseFilename=soyamusic-1.0.0
 Compression=lzma
 SolidCompression=yes
 SetupIconFile=..\..\windows\runner\resources\app_icon.ico
