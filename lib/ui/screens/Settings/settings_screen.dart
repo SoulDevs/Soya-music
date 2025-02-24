@@ -57,7 +57,7 @@ class SettingsScreen extends StatelessWidget {
                             onTap: () {
                               launchUrl(
                                 Uri.parse(
-                                  'https://github.com/anandnet/Harmony-Music/releases/latest',
+                                  'https://github.com/SoulDevs/Soya-music/releases/latest',
                                 ),
                                 mode: LaunchMode.externalApplication,
                               );
@@ -664,7 +664,7 @@ class SettingsScreen extends StatelessWidget {
                     onTap: () {
                       launchUrl(
                         Uri.parse(
-                          'https://github.com/anandnet/Harmony-Music',
+                          'https://github.com/SoulDevs/Soya-music',
                         ),
                         mode: LaunchMode.externalApplication,
                       );
@@ -675,7 +675,7 @@ class SettingsScreen extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          "Harmony Music",
+                          "Soya Music",
                           style: Theme.of(context).textTheme.titleLarge,
                         ),
                         Text(settingsController.currentVersion,

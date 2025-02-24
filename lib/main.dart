@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
       return null;
     });
     return GetMaterialApp(
-        title: 'Harmony Music',
+        title: 'Soya Music',
         home: const Home(),
         debugShowCheckedModeBanner: false,
         translations: Languages(),

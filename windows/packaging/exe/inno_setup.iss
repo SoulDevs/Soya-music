@@ -1,11 +1,11 @@
 [Setup]
 AppId=B9F6E402-0CAE-4045-BDE6-14BD6C39C4EA
 AppVersion=1.11.2+24
-AppName=Harmony Music
+AppName=Soya Music
 AppPublisher=anandnet
-AppPublisherURL=https://github.com/anandnet/Harmony-Music
-AppSupportURL=https://github.com/anandnet/Harmony-Music
-AppUpdatesURL=https://github.com/anandnet/Harmony-Music
+AppPublisherURL=https://github.com/SoulDevs/Soya-music
+AppSupportURL=https://github.com/SoulDevs/Soya-music
+AppUpdatesURL=https://github.com/SoulDevs/Soya-music
 DefaultDirName={autopf}\harmonymusic
 DisableProgramGroupPage=yes
 OutputDir=.
@@ -31,8 +31,8 @@ Source: "..\..\build\windows\x64\runner\Release\*"; DestDir: "{app}"; Flags: ign
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
-Name: "{autoprograms}\Harmony Music"; Filename: "{app}\harmonymusic.exe"
-Name: "{autodesktop}\Harmony Music"; Filename: "{app}\harmonymusic.exe"; Tasks: desktopicon
+Name: "{autoprograms}\Soya Music"; Filename: "{app}\harmonymusic.exe"
+Name: "{autodesktop}\Soya Music"; Filename: "{app}\harmonymusic.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\harmonymusic.exe"; Description: "{cm:LaunchProgram,{#StringChange('Harmony Music', '&', '&&')}}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\harmonymusic.exe"; Description: "{cm:LaunchProgram,{#StringChange('Soya Music', '&', '&&')}}"; Flags: nowait postinstall skipifsilent
