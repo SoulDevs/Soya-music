@@ -35,7 +35,7 @@ import 'dart:core' as core$_;
 import 'package:jni/_internal.dart' as jni$_;
 import 'package:jni/jni.dart' as jni$_;
 
-/// from: `com.anandnet.harmonymusic.Equalizer`
+/// from: `com.sadevs.soyamusic.Equalizer`
 class Equalizer extends jni$_.JObject {
   @jni$_.internal
   @core$_.override
@@ -248,7 +248,7 @@ final class $Equalizer$Type extends jni$_.JObjType<Equalizer> {
   }
 }
 
-/// from: `com.anandnet.harmonymusic.SDKInt$Companion`
+/// from: `com.sadevs.soyamusic.SDKInt$Companion`
 class SDKInt$Companion extends jni$_.JObject {
   @jni$_.internal
   @core$_.override
@@ -393,7 +393,7 @@ final class $SDKInt$Companion$Type extends jni$_.JObjType<SDKInt$Companion> {
   }
 }
 
-/// from: `com.anandnet.harmonymusic.SDKInt`
+/// from: `com.sadevs.soyamusic.SDKInt`
 class SDKInt extends jni$_.JObject {
   @jni$_.internal
   @core$_.override
@@ -416,7 +416,7 @@ class SDKInt extends jni$_.JObject {
     r'Lcom/anandnet/harmonymusic/SDKInt$Companion;',
   );
 
-  /// from: `static public final com.anandnet.harmonymusic.SDKInt$Companion Companion`
+  /// from: `static public final com.sadevs.soyamusic.SDKInt$Companion Companion`
   /// The returned object must be released after use, by calling the [release] method.
   static SDKInt$Companion get Companion =>
       _id_Companion.get(_class, const $SDKInt$Companion$Type());
