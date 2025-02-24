@@ -46,7 +46,7 @@ jobs:
       - name: Upload linux deb artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Harmony music linux deb
+          name: Soya music linux deb
           path: ./Harmony-Music/dist/*
 
   build-android-apk-and-windows-exe:
@@ -90,7 +90,7 @@ jobs:
       - name: Upload apk artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Harmony music apk
+          name: Soya music apk
           path: ./Harmony-Music/build/app/outputs/flutter-apk/*apk
 
       - name: Build windows exe package
@@ -102,7 +102,7 @@ jobs:
       - name: Upload Windows exe artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Harmony music windows exe
+          name: Soya music windows exe
           path: ./Harmony-Music/dist/*
 
   build-ios-ipa:
@@ -150,7 +150,7 @@ jobs:
       - name: Upload ios ipa artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Harmony music ios ipa
+          name: Soya music ios ipa
           path: ./Harmony-Music/build/ios/iphoneos/harmonymusic.ipa
       
 
